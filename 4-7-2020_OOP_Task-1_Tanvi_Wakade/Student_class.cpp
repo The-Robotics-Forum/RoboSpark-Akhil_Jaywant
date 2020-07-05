@@ -63,7 +63,7 @@ class student
         return cgpa;
     }
 
-    void Show(float Total_marks , float cgpa)
+    void Show()
     {
         cout << "\n Name of the student : " << name;
         cout << "\n ID of the student : "<<Id;
@@ -72,7 +72,7 @@ class student
         {
             cout << "\t" <<marks[i];
         }
-        cout << "\n Total marks : "<<Total_marks << "/500";
+        cout << "\n Total marks : "<<sum << "/500";
         cout << "\n CGPA : " << cgpa;
         
         delete marks;
@@ -87,7 +87,7 @@ int main()
     float sum , cgpa;
     sum = s.Total_marks();
     cgpa = s.CGPA();
-    s.Show(sum ,cgpa);
+    s.Show();
     return 0;
 
 }
