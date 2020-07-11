@@ -1,0 +1,19 @@
+.column{
+    float: left;
+    width: 33.33%;
+    height: 500px;
+}
+.row:after{
+    content:"";
+    display:table;
+    clear:both;
+}
+h2{
+    text-align: center;
+}
+li{
+    padding : 10px;
+}
+h1{
+    color:white;
+}
