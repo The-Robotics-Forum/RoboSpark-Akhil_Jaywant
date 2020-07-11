@@ -1,0 +1,78 @@
+.bg
+{
+    
+    background-image: url("../images/bg6.jpg");
+    background-repeat: none;
+    background-size: cover;
+    margin: 10%;
+    left:0px;
+    top:0px;
+    width:80%;
+    height:100%;
+}
+
+.head
+{
+    background-color:white ;
+    height:300px;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.head img
+{
+    float: right;
+    border: black solid 4px;
+    padding: 5px;
+}
+
+.info
+{
+    float: left;
+    height:300px;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+.information
+{
+    background-color: rgb(228, 225, 225);
+    padding: 20px;
+    margin: 20px;
+}
+
+
+#about
+{
+    padding: 20px;
+    margin: 20px;
+}
+
+#projects
+{
+    padding: 20px;
+    margin: 20px;
+}
+
+#education
+{
+    padding: 20px;
+    margin: 20px;
+}
+
+.contact
+{
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+}
+
+.contact i
+{
+    padding: 4px;
+}
+
+
+
+
