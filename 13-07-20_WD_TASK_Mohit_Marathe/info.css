@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding:0;
+    background: url("bg2.jpg") fixed no-repeat;
+    background-size:cover;
+}
+.box{
+    position:absolute;
+    width:300px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color:yellow;
+}  
+.inpt{
+    width:100%;
+    overflow:hidden;
+    font-size:20px;
+    padding:8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid
+}
+.inpt input{
+    border:none;
+    background:none;
+    outline:none;
+    color:yellow;
+    font-size:18px;
+    width:80%;
+    margin:1px 10px;}
+    .submit-btn{
+        width:100%;
+        background:none;
+        font-size:20px;
+        padding: 5px;
+        margin-top:20px;
+        color:yellow;
+        border:2px solid;
+        cursor:pointer;
+    }
+    .submit-btn:hover{
+        color:#395D33;
+        background-color:#83F52C;
+        transition:0.5s;
+    }
