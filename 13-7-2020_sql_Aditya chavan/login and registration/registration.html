@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Registration Form</title>
+        <meta charset="UTF-8" name="viewport" content="width=device-width , initial-scale=1.0">
+        <link rel="stylesheet" href="css/registration.css">
+        <link rel="icon" href="images/trflogo6.png">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <form method="POST" action="registration.php" class="registration">
+            <h1>Registration</h1>
+            <div class="form_input">
+                <i class="fa fa-user" aria-hidden="true"></i>
+                <input type="text" name="uname" placeholder="Enter Username" />
+            </div>
+            <div class="form_input">
+                <i class="fa fa-user" aria-hidden="true"></i>
+                <input type="text" name="firstname" placeholder="First Name" />
+            </div>
+            <div class="form_input">
+                <i class="fa fa-user" aria-hidden="true"></i>
+                <input type="text" name="lastname" placeholder="Last Name" />
+            </div>
+            <div class="form_input">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <input type="email" name="email" placeholder="Email" />
+            </div>
+            <div class="form_input">
+                <i class="fa fa-folder-open-o" aria-hidden="true"></i>
+                <input type="text" name="projectname" placeholder="Project Name" />
+            </div>
+            <div class="form_input">
+                <i class="fa fa-file-text-o" aria-hidden="true"></i>
+                <input type="text" name="projectdescription" placeholder="Project Description" />
+            </div>
+            <div class="form_input">
+                <i class="fa fa-lock" aria-hidden="true"></i>
+                <input type="password" name="password" placeholder="Create password" />
+            </div>
+            <input type="submit" name="submit" value="Register" class="submit-btn">
+            <p class="signUp">Account already exists? <a href="login.html">Login Here</a></p>
+        </form>
+    </body>
+</html>
